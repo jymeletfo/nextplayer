@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "kzmgthe8q38xfb4e6b0z.lite.vusercontent.net",
+        hostname: "prod-mogadorsync.s3.ca-central-1.amazonaws.com",
         port: "",
         pathname: "/**",
       },
