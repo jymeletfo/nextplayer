@@ -1,13 +1,6 @@
 import { VideoThumbnail } from "@/components/custom/video-thumbnail";
 import { getProducts } from "./api/directus";
 
-type VideoThumbnailProps = {
-  thumbnailUrl: string;
-  title: string;
-  description: string;
-  duration: string;
-};
-
 export default async function Home() {
   const products = await getProducts();
 
