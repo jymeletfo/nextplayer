@@ -64,5 +64,6 @@ body {
 }
 
 body {
+  /* background-image: url("/imgs/bg.jpg"); */
   @apply bg-slate-50;
 }

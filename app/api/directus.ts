@@ -1,8 +1,8 @@
 import { Product } from "@/types/product";
 import { createDirectus, rest, staticToken, readItems } from "@directus/sdk";
 
-const token = "elKmoZO3ggQW1m9RG7iK0Z_2c78wdlU4";
-const apiUrl = "https://mogador.directus.app";
+const token = process.env.API_TOKEN! as string;
+const apiUrl = process.env.API_URL! as string;
 
 type DBSchema = {
   tfo_products: Product[];
